@@ -1,0 +1,22 @@
+METODE PENGURUTAN (SHELL SORT)
+
+
+
+Metode ini disebut juga dengan metode pertambahan menurun (diminishing increment short). 
+Metode ini dikembangkan oleh Donald L.shell pada tahun 1959,sehingga sering disebut dengan metode shell short.
+
+Metode ini mengurutkan data dengan cara membandingkan suatu data lain yang memiliki jarak tentu sehingga membentuk sebuah sub-list-, 
+kemudian dilakukan penukaran apabila diperlukan.
+Jarak yang dipakai didasarkan pada increment value atau sequence number K.
+Misalnya sequence number yang dipakai adalah 5,3,1. tidak ada pembuktianya disini bahwa bilangan tersebut adalah sequence number terbaik.
+Setiap sup-list berisi setiap element ke-K dari kumpulan element yang asli.
+o Sebagai contoh :
+Jika K=5 maka sub-list adalah sebagai berikut :
+– s[0] s[5]     s[10]…
+– s[1] s[6]     s[11]…
+– s[2] s[7]     s[12]…
+– dst
+o Begitu juga K=3 maka sub-listnya adalah :
+– s[0] s[3]     s[6]…
+– s[1] s[4]     s[7]…
+– dst
